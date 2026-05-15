@@ -1,15 +1,26 @@
-.callout {
+.callout {max-width: 400px;
+margin: 10px; padding: 15px;
+color:white;
+background-color: rgba(21, 21, 107, 0.829);
+margin: 0 auto;}
+
+.callout img {float: right;
+    margin:15px 0 0 10px;
+    padding:3px;
+    border: 1px solid lab(46.98% 0.37 2.63);
+    width: 100px;
+    height: 100px;
+	background-color:lab(74.7% 1.23 1);
+    
+}
+
+blockquote {margin: 0;
 	
 }
 
-.callout img {
-	
-}
-
-blockquote {
-	
-}
-
-cite {
+cite {border-top: 1px dotted;
+    text-align: right;
+    font-size: smaller;
+    display: block;
 	
 }
