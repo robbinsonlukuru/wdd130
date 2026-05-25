@@ -47,32 +47,20 @@ nav, p, section, article{
     height: auto;
 }
 
-h1 { 
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: o.7;
-    background-color: var(--accent-color);
-    color: #fff;
-}
+
 article {
     position: absolute;
-    top: 400px;
+    top: 320px;
     width: 800px;
-    height:120px;
+    height: auto;
     background-color: rgba(38, 70, 83, 0.85);
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 20px;
 }
 
 .hero article img {
     width: 125px;
-   float:right;
+    float: right;
 }
 
-h2 { 
-    background-color: var(--accent-color);
-}
