@@ -14,6 +14,7 @@ color: (--secondary-color);
 padding:0;
 box-sizing: border-box;
 }
+h1 {align-items: center;}
 
 body{font-family: var(--body-font);
 color: var(--accent-color);
@@ -23,28 +24,10 @@ header, main, footer {width: 840px;
 margin: 0 auto;
 }
 
-h1, h2{
-    font-family: var(--Heading-font);
-    color: var(--color)
+.hero img { width:840px; 
 }
-
-nav, p, section, article{
-     margin:16px; 
-    padding: 8px;}
-
-.hero { 
-    position: relative;
-
-}
-.hero img { 
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 
 article {
-    position: absolute;
     top: 320px;
     width: 800px;
     height: auto;
@@ -53,7 +36,6 @@ article {
     border-radius: 10px;
     padding: 20px;
 }
-
 .hero article img {
     width: 125px;
     float: right;
@@ -67,6 +49,7 @@ header {
 }
 header img { background-color:purple;
     border-radius: 50%;
+    width:10;
 
  }
 
@@ -89,4 +72,33 @@ footer {
 
 .socialmedia a {
     text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 0; /* removes spacing between items */
+}
+
+nav li {
+    border: 1px solid black;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.history-content img {
+    width: 300px;
+    height: auto;
 }
