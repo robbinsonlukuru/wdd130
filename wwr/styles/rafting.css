@@ -32,11 +32,6 @@ nav, p, section, article{
      margin:16px; 
     padding: 8px;}
 
-.socialmedia a{ 
-    text-decoration: none;
-
-}
-
 .hero { 
     position: relative;
 
@@ -63,4 +58,35 @@ article {
     width: 125px;
     float: right;
 }
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: rgb(230, 208, 230);
+  border: 1px solid black;
+}
+header img { background-color:purple;
+    border-radius: 50%;
 
+ }
+
+ .link { color:black;}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
