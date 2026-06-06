@@ -1,0 +1,18 @@
+:root {
+    --header-blue: #1565c0;
+    --highlight-blue: #e4ebf0;
+}
+table {border-collapse: collapse;
+    border:2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+}
+th ,td { border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align:center;
+}
+thead tr, tfoot tr{ background-color:var(--header-blue);
+    color:white;
+    font-weight: 700;
+ }
+.catarina {background-color:var(--highlight-blue);} 
+.acre { background-color: var(--highlight-blue);}
