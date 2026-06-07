@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
 :root {
     --header-blue: #1565c0;
     --highlight-blue: #e4ebf0;
@@ -16,3 +17,8 @@ thead tr, tfoot tr{ background-color:var(--header-blue);
  }
 .catarina {background-color:var(--highlight-blue);} 
 .acre { background-color: var(--highlight-blue);}
+{
+  font-family: "Ole", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
